@@ -1,0 +1,20 @@
+{
+  "name": "proj",
+  "version": "0.0.1",
+  "main": "./lib/proj",
+  "keywords": [
+    "cli",
+    "command"
+  ],
+  "scripts": {
+    "start": "node ./lib/proj"
+  },
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "ttab": "^0.6.0"
+  }
+}
