@@ -4,6 +4,10 @@
   "main": "./lib/projtabs",
   "author": "Matt Breckon",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Kersheh/projtabs.git"
+  },
   "keywords": [
     "cli",
     "command"
