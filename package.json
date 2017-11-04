@@ -10,8 +10,7 @@
     "start": "node ./lib/proj"
   },
   "files": [
-    "lib",
-    "bin"
+    "lib"
   ],
   "dependencies": {
     "bluebird": "^3.5.1",
