@@ -1,6 +1,6 @@
 {
   "name": "projtabs",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "main": "./lib/projtabs",
   "author": "Matt Breckon",
   "license": "MIT",
