@@ -23,17 +23,18 @@ Place `.projrc` file at the root of your project and execute `projtabs`.
 {
   "dirs": [
     {
-      "path": "lib",
+      "path": "~",
       "name": "Home in new tab",
-      "cmd": "echo 'Hello tab 1'",
+      "cmd": "echo 'Hello new terminal tab'",
       "window": false
     },
     {
       "path": "lib",
-      "name": "Home in new tab",
-      "cmd": "echo 'Hello tab 2'",
+      "name": "Folder in a new window",
+      "cmd": "echo 'Hello new terminal window'",
       "window": true
-    }
+    },
+    "bin"
   ]
 }
 ```
