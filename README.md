@@ -1,4 +1,4 @@
-[![license](https://img.shields.io/npm/l/ttab.svg)](https://github.com/mklement0/ttab/blob/master/LICENSE.md)
+[![license](https://img.shields.io/npm/l/ttab.svg)](https://github.com/Kersheh/projtabs/blob/master/LICENSE)
 
 
 # projtabs &mdash; Automated project terminal tab/window opener
@@ -23,8 +23,8 @@ Place `.projrc` file at the root of your project and execute `projtabs`.
 {
   "dirs": [
     {
-      "path": "~",
-      "name": "Home in new tab",
+      "path": "..",
+      "name": "Parent directory in new tab",
       "cmd": "echo 'Hello new terminal tab'",
       "window": false
     },
@@ -43,10 +43,14 @@ Place `.projrc` file at the root of your project and execute `projtabs`.
 
 `"dirs"` takes either an array of either strings representing the new terminal's path or objects containing a set of new terminal options.
 
-`"path"` String: Path to start new terminal.
+`"path"` String: Path to start new terminal. (note: home directory `~` appears to not work correctly)
 
 `"name"` String: Name of new terminal.
 
 `"cmd"` String: Command to execute when new terminal opens.
 
 `"window"` Boolean: Open new terminal in window (defaults to false).
+
+# To Do
+
+1. Fix `~` home directory path error.
