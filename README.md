@@ -23,8 +23,8 @@ Place `.projrc` file at the root of your project and execute `projtabs`.
 {
   "dirs": [
     {
-      "path": "..",
-      "name": "Parent directory in new tab",
+      "path": "~",
+      "name": "Home directory in new tab",
       "cmd": "echo 'Hello new terminal tab'",
       "window": false
     },
@@ -50,7 +50,3 @@ Place `.projrc` file at the root of your project and execute `projtabs`.
 `"cmd"` String: Command to execute when new terminal opens.
 
 `"window"` Boolean: Open new terminal in window (defaults to false).
-
-# To Do
-
-1. Fix `~` home directory path error.
