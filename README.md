@@ -34,19 +34,26 @@ Place `.projrc` file at the root of your project and execute `projtabs`.
       "cmd": "echo 'Hello new terminal window'",
       "window": true
     },
-    "bin"
-  ]
+    "someOtherDir"
+  ],
+  "options": {
+    "exit": false
+  }
 }
 ```
 
-# Options
+# Config
 
-`"dirs"` takes either an array of either strings representing the new terminal's path or objects containing a set of new terminal options.
+`"dirs"` takes either an array of strings representing the new terminal's path or objects containing a set of new terminal options listed below.
 
-`"path"` String: Path to start new terminal. (note: home directory `~` appears to not work correctly)
+- `"path"` String: Path to start new terminal.
 
-`"name"` String: Name of new terminal.
+- `"name"` String: Name of new terminal.
 
-`"cmd"` String: Command to execute when new terminal opens.
+- `"cmd"` String: Command to execute when new terminal opens.
 
-`"window"` Boolean: Open new terminal in window (defaults to false).
+- `"window"` Boolean: Open new terminal in window (defaults to false).
+
+`"options"` additional optional configuration options.
+
+- `"exit"` Boolean: Sends a signal to the active terminal to close after execution (defaults to false).

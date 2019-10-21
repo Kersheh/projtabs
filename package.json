@@ -1,6 +1,6 @@
 {
   "name": "projtabs",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "main": "./lib/projtabs",
   "author": "Matt Breckon",
   "license": "MIT",
@@ -12,19 +12,17 @@
     "cli",
     "command"
   ],
-  "scripts": {
-    "start": "node ./bin/projtabs"
-  },
   "files": [
     "lib",
     "bin"
   ],
   "bin": {
-    "projtabs": "./bin/projtabs"
+    "projtabs": "./bin/projtabs",
+    "projtabs.js": "./bin/projtabs.js"
   },
   "preferGlobal": true,
   "dependencies": {
-    "bluebird": "^3.5.1",
-    "ttab": "^0.6.0"
+    "bluebird": "^3.7.1",
+    "ttab": "^0.6.1"
   }
 }
