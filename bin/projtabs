@@ -5,9 +5,12 @@ BIN_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd)"
 
 EXIT=$(node $BIN_DIR/projtabs.js)
 
-if [ $EXIT = 'true' ]
-then
+if [[ "$EXIT" = 'true' ]]; then
   kill -9 $PPID
+elif [[ "$EXIT" = 'false' ]]; then
+  exit
+else
+  echo "$EXIT" # print error if returned result is neither 'true' nor 'false'
 fi
 
 exit
