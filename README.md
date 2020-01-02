@@ -1,5 +1,4 @@
-[![license](https://img.shields.io/npm/l/ttab.svg)](https://github.com/Kersheh/projtabs/blob/master/LICENSE)
-
+[![license](https://img.shields.io/npm/l/projtabs)](https://github.com/Kersheh/projtabs/blob/master/LICENSE)
 
 # projtabs &mdash; Automated project terminal tab/window opener
 
